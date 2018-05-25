@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="text-center">
+    <h1>You can find us here</h1>
+    <ul class="list-inline">
+      <% data.cities.each do |city, info| %>
+      <li>
+        <img src="https://kitt.lewagon.com/placeholder/cities/<%= city %>" class="img-rounded" height="100px" width="150px">
+        <p><%= info.name.capitalize %></p>
+        <p><%= info.address %></p>
+
+      </li>
+      <% end %>
+    </ul>
+
+  </div>
+</div>

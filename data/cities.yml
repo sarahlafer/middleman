@@ -1,0 +1,29 @@
+# - name: Berlin
+#   address: "Rudi-Dutschke-Straße 26, 10969 Berlin"
+# - name: Paris
+#   address: "16, villa Gaudelet 75011 Paris"
+# - name: London
+#   address: "32 Kingsland Road"
+
+
+
+#   [
+#     {name => Berlin, addres...},
+#     {}
+
+#   ]
+
+
+
+berlin:
+  name: Berlin
+  address: "Rudi-Dutschke-Straße 26, 10969 Berlin"
+paris:
+  name: Paris
+  address: "16, villa Gaudelet 75011 Paris"
+london:
+  name: London
+  address: "32 Kingsland Road"
+
+
+
